@@ -1,11 +1,3 @@
-/* **********************************************
-Basic mechanics
-Hide all paragraphs by default
-Show them when they receive the class 'on'
-Hide them when they receive the class 'off'
-Feel free to adjust the defaults to your needs.
-***********************************************/
-
 body {
     background-color: black;
 }
@@ -201,16 +193,6 @@ body {
     color: white;
 }
 
-
-
-/* **********************************************
-The first paragraph, with extended timing for 
-	all siblings. Basically what it does is that
-	it shows the text after a delay, which 
-	corresponds with the time that the word is
-	spoken.
-You probably want to change the styling.
-********************************************** */
 .p0 span {
 	opacity: 0;
     font-weight: 400;
