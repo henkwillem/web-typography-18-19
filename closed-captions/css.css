@@ -4,12 +4,170 @@ Hide all paragraphs by default
 Show them when they receive the class 'on'
 Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
-********************************************** */
+***********************************************/
+
+body {
+    background-color: black;
+}
+
+#video-placeholder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vw;
+    height: 50vh;
+    z-index: 20;
+    transition: .5s;
+}
+
+.sound1 {
+    background-color: red;
+}
+
+.sound1 h1, h2, h3, h4, h5, h6, h7, h8, h9, h10, h11, h12, h13, h14, h15, h16, h17, h18, h19, h20, h21, h22, h23, h24, h25, h26, h27, h28, h29, h30 {
+    opacity: 0;
+}
+
+
+@keyframes zoemrotate1 {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    50% {
+        transform: translate(-50%, -50%) rotate(-2.5deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+}
+
+@keyframes zoemrotate2 {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    50% {
+        transform: translate(-50%, -50%) rotate(-2.5deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+}
+
+@keyframes zoemrotate3 {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    50% {
+        transform: translate(-50%, -50%) rotate(-2.5deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+}
+
+@keyframes schalenframe {
+    0% {
+        transform: translate(-50%, -50%) scale(1.0);
+    }
+    20% {
+        transform: translate(-50%, -50%) scale(0.8); 
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(0.6);
+    }
+    65% {
+        transform: translate(-50%, -50%) scale(0.4);
+    }
+    79.9% {
+        transform: translate(-50%, -50%) scale(0.4);
+    }
+    80% {
+        transform: translate(-50%, -50%) scale(0);
+    }
+    99.8% {
+        transform: translate(-50%, -50%) scale(0);
+    }
+    99.9% {
+        transform: translate(-50%, -50%) scale(1.0);
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1.0);
+    }   
+}
+
+@keyframes wegzappert {
+    0% {
+        transform: translate(-50%, -50%) scale(1.0);
+    }
+    0.1% {
+        transform: translate(-50%, -50%) scale(0.0);
+    }
+    99.9% {
+        transform: translate(-50%, -50%) scale(0.0);
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1.0);
+    }
+}
+
+.sound1 #video-placeholder {
+    transform-origin: center;
+    animation-name: zoemrotate1;
+    animation-duration: 1.8s;
+}
+
+.sound3 #video-placeholder {
+    transform-origin: center;
+    animation: zoemrotate2;
+    animation-duration: 1s;
+}
+
+.sound6 #video-placeholder {
+    transform-origin: center;
+    animation: zoemrotate3;
+    animation-duration: 1s;
+}
+
+.sound8 #video-placeholder {
+    transform-origin: center;
+    animation-name: schalenframe;
+    animation-duration: 5s;
+}
+
+.sound2 {
+    background-color: black;
+}
+
+.sound3 {
+    background-color: blue;
+}
+
+.sound4 {
+    background-color: black;
+}
+
+.sound6 {
+    background-color: red;
+}
+
+.sound7 {
+    background-color: black;
+}
+
+
 #closed-captions p {
 	opacity: 0;
 	transition: .05s;
-	position: absolute;
+    color: white;
+    position: absolute;
+    bottom: 20%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
 }
+
+
 #closed-captions .on {
 	opacity: 1;
 }
@@ -17,9 +175,33 @@ Feel free to adjust the defaults to your needs.
 	transition: .2s;
 	opacity: 0;
 }
+
 .voice1 {
-	font-style: italic;
+    font-family: "brenner mono";
+	font-style: normal;
+    font-size: 1.5em;
+    color: white;
+    background-color: black;
+    z-index: 1 !important;
 }
+
+.voice2 {
+    font-family: "brenner mono";
+    font-style: italic;
+    font-size: 1.5em;
+    color: white;
+    background-color: black;
+    z-index: 1 !important;
+}
+
+.voice3 {
+    font-family: "brenner mono";
+    font-size: 2em;
+    background-color: red;
+    color: white;
+}
+
+
 
 /* **********************************************
 The first paragraph, with extended timing for 
@@ -31,66 +213,708 @@ You probably want to change the styling.
 ********************************************** */
 .p0 span {
 	opacity: 0;
-	font-family: brenner;
+    font-weight: 400;
 }
 .p0.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	font-weight: 200;
 }
 .p0.on span:nth-of-type(2) {
 	opacity: 1;
 	transition: 0s .4s;
 	margin-right: -.25em;
-	font-weight: 400;
 }
 .p0.on span:nth-of-type(3) {
 	opacity: 1;
 	transition: 0s .5s;
 	margin-right: -.25em;
-	font-weight: 600;
 }
 .p0.on span:nth-of-type(4) {
 	opacity: 1;
 	transition: 0s .7s;
 	margin-right: -.25em;
-	font-weight: 800;
 }
 .p0.on span:nth-of-type(5) {
 	opacity: 1;
 	transition: 0s 1.1s;
 	margin-right: -.25em;
-	font-family: "brenner sans";
 }
 .p0.on span:nth-of-type(6) {
 	opacity: 1;
 	transition: 0s 1.4s;
 	margin-right: -.25em;
-	font-family: "brenner display";
 }
 .p0.on span:nth-of-type(7) {
 	opacity: 1;
 	transition: 0s 1.7s;
 	margin-right: -.25em;
-	font-family: "brenner script";
 }
 .p0.on span:nth-of-type(8) {
 	opacity: 1;
 	transition: 0s 2s;
-	font-family: "brenner script";
 }
 .p0.on span:nth-of-type(9) {
 	opacity: 1;
 	transition: 0s 3s;
-	font-family: "brenner Sans condensed";
 }
 .p0.on span:nth-of-type(10) {
 	opacity: 1;
 	transition: 0s 3.2s;
-	font-family: "brenner mono";
+
 }
 .p0.on span:nth-of-type(11) {
 	opacity: 1;
 	transition: 0s 3.7s;
-	font-family: "brenner slab";
+}
+
+.p1.on span {
+    font-family: "brenner mono";
+}
+
+.sound8 h2 {
+    color: white;
+    font-family: "brenner mono";
+    position: absolute;
+    top: 3em;
+    left: 3em;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 5em;
+    opacity: 1;
+}
+
+.sound9 h2 {
+    color: white;
+    font-family: "brenner mono";
+    position: absolute;
+    top: 3em;
+    left: 1em;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 11.5em;
+    opacity: 1;
+}
+ 
+.sound10 h2 {
+    color: white;
+    font-family: "brenner mono";
+    position: absolute;
+    top: -1em;
+    left: -0.1em;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 37em;
+    opacity: 1;
+}
+
+.sound11 h2 {
+    opacity: 0;
+}
+
+.sound12 h1 {
+    color: aqua;
+    font-family: "brenner mono";
+    position: absolute;
+    text-align: center;
+    font-style: italic;
+    font-weight: 1000;
+    font-size: 30em;
+    top: 7%;
+    opacity: 1;
+}
+
+.sound13 h1 {
+    opacity: 0;
+}
+
+.sound16 h3 {
+    color: yellow;
+    font-family: "brenner display stencil black";
+    position: absolute;
+    text-align: center;
+    font-weight: 800;
+    font-size: 8em;
+    left: .3em;
+    top: 3.1em;
+    opacity: 1;
+}
+
+.sound17 h2 {
+    color: deeppink;
+    font-family: "brenner slab bold italic";
+    position: absolute;
+    text-align: center;
+    font-weight: 1000;
+    font-size: 13em;
+    top: 4.8em;
+    left: 2em;
+    opacity: 1;
+}
+
+.sound18 h4 {
+    color: blue;
+    font-family: "brenner sans condensed";
+    position: absolute;
+    text-align: center;
+    font-weight: 1000;
+    font-size: 22em;
+    left: 5em;
+    top: -.9em;
+    opacity: 1;
+}
+
+.sound19 h5 {
+    color: red;
+    font-family: "brenner script";
+    position: absolute;
+    text-align: center;
+    font-weight: 1000;
+    font-size: 30em;
+    left: 0.2em;
+    top: -2em;
+    opacity: 1;
+}
+
+.sound20 h6 {
+    color: white;
+    font-family: "brenner sans";
+    position: absolute;
+    text-align: center;
+    font-weight: 800;
+    font-size: 21em;
+    top: 1em;
+    bottom: 3em;
+    left: 4.1em;
+    opacity: 1;
+    transform: rotate(-90deg);
+}
+
+.sound21 h7 {
+    color: palegreen;
+    font-family: "brenner sans";
+    font-style: italic;
+    position: absolute;
+    text-align: center;
+    font-weight: 800;
+    font-size: 25em;
+    top: 2.7em;
+    bottom: 7em;
+    left: -1.1em;
+    opacity: 1;
+    transform: rotate(-90deg);
+}
+
+.sound22 h8 {
+    color: yellow;
+    font-family: "brenner slab";
+    position: absolute;
+    text-align: center;
+    font-weight: 800;
+    font-size: 28em;
+    top: 1em;
+    left: 3.5em;
+    transform: rotate(90deg);
+    opacity: 1;
+}
+
+.sound23 h9 {
+    color: blueviolet;
+    font-family: "brenner bold";
+    font-size: 50em;
+    position: absolute;
+    text-align: center;
+    bottom: -0.4em;
+    opacity: 1;
+}
+
+.sound24 h10 {
+    color: white;
+    font-family: "brenner mono";
+    font-size: 70em;
+    font-weight: 1000;
+    left: -0.2em;
+    position: absolute;
+    text-align: center;
+    opacity: 1;
+}
+
+.sound25 {
+    background-color: yellow;
+}
+
+.sound25 h11 {
+    color: blue;
+    background-color: deeppink;
+    font-family: "brenner sans";
+    font-style: italic;
+    position: absolute;
+    text-align: center;
+    font-weight: 800;
+    font-size: 13em;
+    top: 3em;
+    left: -2em;
+    opacity: 1;
+    transform: rotate(-90deg);
+}
+
+.sound26 {
+    background-color: hotpink;
+}
+.sound26 h12 {
+    color: aqua;
+    background-color: purple;
+    font-family: "brenner mono";
+    position: absolute;
+    text-align: center;
+    font-weight: 800;
+    font-size: 12em;
+    left: 5em;
+    top: 1.1em;
+    opacity: 1;
+}
+
+.sound27 {
+    background-color: mediumspringgreen;
+}
+
+.sound27 h13 {
+    color: black;
+    background-color:white;
+    font-family: "brenner script";
+    position: absolute;
+    text-align: center;
+    font-weight: 1000;
+    font-size: 12em;
+    left: 4em;
+    top: 6.9em;
+    opacity: 1;
+}
+
+.sound28 {
+    background-color: blue;
+}
+
+.sound28 h14 {
+    color: white;
+    background-color: orange;
+    font-family: "brenner slab";
+    font-style: italic;
+    position: absolute;
+    text-align: center;
+    font-weight: 1000;
+    font-size: 15em;
+    transform: rotate(90deg);
+    left: 6em;
+    bottom: 2.3em;
+    opacity: 1;
+}
+
+.sound29 {
+    background-color: lightgreen;
+}
+
+.sound29 h15 {
+    color: deeppink;
+    background-color: yellow;
+    font-family: "brenner mono";
+    font-style: italic;
+    position: absolute;
+    text-align: center;
+    font-weight: 1000;
+    font-size: 15em;
+    opacity: 1;
+}
+
+.sound30 {
+    background-color: red;
+}
+
+.sound30 h16 {
+    color: black;
+    background-color: lightgreen;
+    font-family: "brenner sans condensed";
+    position: absolute;
+    text-align: center;
+    font-weight: 1000;
+    left: -0em;
+    font-size: 40em;
+    bottom: 0.6em;
+    opacity: 1;
+}
+
+.sound31 {
+    background-color: blueviolet;
+}
+
+.sound31 h17 {
+    color: white;
+    background-color: antiquewhite;
+    font-family: brenner mono;
+    font-size: 25em;
+    font-style: italic;
+    position: absolute;
+    text-align: center;
+    font-weight: 1000;
+    transform: rotate(-90deg);
+    left: -2.8em;
+    bottom: 2em;
+    opacity: 1;
+}
+
+.sound32 {
+    background-color: aquamarine;
+}
+
+.sound32 h18 {
+    color: deepskyblue;
+    background-color: hotpink;
+    font-family: brenner medium;
+    font-size: 20em;
+    font-style: italic;
+    position: absolute;
+    text-align: center;
+    font-weight: 1000;
+    left: 3em;
+    bottom: 2.8em;
+    opacity: 1;
+}
+
+.sound33 {
+    background-color: chocolate;
+}
+
+.sound33 h19 {
+    color: darkgreen;
+    background-color: khaki;
+    font-family: brenner display black;
+    font-size: 20em;
+    position: absolute;
+    text-align: center;
+    font-weight: 1000;
+    left: 2em;
+    bottom: 4em;
+    opacity: 1;
+}
+
+.sound34 {
+    background-color: ghostwhite;
+}
+
+.sound34 h20 {
+    color:navy;
+    background-color: slateblue;
+    font-family: "brenner sans";
+    font-size: 20em;
+    font-style: italic;
+    position: absolute;
+    text-align: center;
+    font-weight: 800;
+    transform: rotate(90deg);
+    left: 3.7em;
+    bottom: 2em;
+    opacity: 1;
+}
+
+.sound35 {
+    background-color: dimgrey;
+}
+
+.sound35 h21 {
+    color: rosybrown;
+    background-color: navajowhite;
+    font-family: "brenner sans condensed";
+    font-style: italic;
+    font-size: 20em;
+    position: absolute;
+    text-align: center;
+    font-weight: 600;
+    left: -0.2em;
+    bottom: -0.5em;
+    opacity: 1;
+}
+
+.sound36 {
+    background-color: darkseagreen;
+}
+
+.sound36 h22 {
+    color: darkolivegreen;
+    background-color: crimson;
+    font-family: "brenner slab";
+    font-style: italic;
+    font-stretch: extra-expanded;
+    font-size: 20em;
+    position: absolute;
+    text-align: center;
+    font-weight: 1000;
+    left: 1em;
+    bottom: 2em;
+    opacity: 1;
+}
+
+.sound37 {
+    background-color: gold;
+}
+
+.sound37 h23 {
+    color: greenyellow;
+    background-color: salmon;
+    font-family: "brenner sans";
+    font-size: 15em;
+    position: absolute;
+    text-align: center;
+    font-weight: 1000;
+    left: 5em;
+    bottom: 1.5em;
+    opacity: 1;
+}
+
+.sound38 {
+    background-color: peachpuff;
+}
+
+.sound38 h24 {
+    color: lavender;
+    background-color: rebeccapurple;
+    font-family: "brenner script";
+    font-size: 15em;
+    font-style: italic;
+    position: absolute;
+    text-align: center;
+    font-weight: 800;
+    left: -1em;
+    bottom: 4em;
+    opacity: 1;
+}
+
+.sound39 {
+    background-color: mediumblue;
+}
+
+.sound39 h25 {
+    color: firebrick;
+    background-color: teal;
+    font-family: "brenner sans condensed";
+    font-size: 15em;
+    position: absolute;
+    text-align: center;
+    font-weight: 600;
+    left: -0.5em;
+    bottom: 3.2em;
+    opacity: 1;
+}
+
+.sound40 {
+    background-color: black;
+}
+
+.sound40 h26 {
+    color: black;
+    background-color: white;
+    font-family: "brenner sans";
+    font-size: 12.3em;
+    position: absolute;
+    text-align: center;
+    font-weight: 1000;
+    left: 0em;
+    bottom: 6.4em;
+    opacity: 1;
+}
+
+.sound41 {
+    background-color: black;
+}
+
+.sound41 h27 {
+    color: black;
+    background-color: white;
+    font-family: "brenner sans";
+    font-size: 12.3em;
+    position: absolute;
+    text-align: center;
+    font-weight: 1000;
+    left: 0em;
+    bottom: 5em;
+    opacity: 1;
+}
+
+.sound42 {
+    background-color: black;
+}
+
+.sound42 h28 {
+    color: black;
+    background-color: white;
+    font-family: "brenner sans";
+    font-size: 12.3em;
+    position: absolute;
+    text-align: center;
+    font-weight: 1000;
+    left: 0em;
+    bottom: 3.6em;
+    opacity: 1;
+}
+
+.sound43 {
+    background-color: black;
+}
+
+.sound43 h29 {
+    color: black;
+    background-color: white;
+    font-family: "brenner sans";
+    font-size: 12.3em;
+    position: absolute;
+    text-align: center;
+    font-weight: 1000;
+    left: 0em;
+    bottom: 2.2em;
+    opacity: 1;
+}
+
+.sound44 {
+    background-color: black;
+}
+
+.sound44 h30 {
+    color: black;
+    background-color: white;
+    font-family: "brenner sans";
+    font-size: 12.3em;
+    position: absolute;
+    text-align: center;
+    font-weight: 1000;
+    left: 0em;
+    bottom: 0.8em;
+    opacity: 1;
+}
+
+.sound45 {
+    background-image: url(images/tripje2.gif);
+}
+
+.sound45 h1 {
+    opacity: 0;
+}
+
+.sound45 h2 {
+    opacity: 0;
+}
+
+.sound45 h3 {
+    opacity: 0;
+}
+
+.sound45 h4 {
+    opacity: 0;
+}
+
+.sound45 h5 {
+    opacity: 0;
+}
+
+.sound45 h6 {
+    opacity: 0;
+}
+
+.sound45 h7 {
+    opacity: 0;
+}
+
+.sound45 h8 {
+    opacity: 0;
+}
+
+.sound45 h9 {
+    opacity: 0;
+}
+
+.sound45 h10 {
+    opacity: 0;
+}
+
+.sound45 h11 {
+    opacity: 0;
+}
+
+.sound45 h12 {
+    opacity: 0;
+}
+
+.sound45 h13 {
+    opacity: 0;
+}
+
+.sound45 h14 {
+    opacity: 0;
+}
+
+.sound45 h15 {
+    opacity: 0;
+}
+
+.sound45 h16 {
+    opacity: 0;
+}
+
+.sound45 h17 {
+    opacity: 0;
+}
+
+.sound45 h18 {
+    opacity: 0;
+}
+
+.sound45 h19 {
+    opacity: 0;
+}
+
+.sound45 h20 {
+    opacity: 0;
+}
+
+.sound45 h21 {
+    opacity: 0;
+}
+
+.sound45 h22 {
+    opacity: 0;
+}
+
+.sound45 h23 {
+    opacity: 0;
+}
+
+.sound45 h24 {
+    opacity: 0;
+}
+
+.sound45 h25 {
+    opacity: 0;
+}
+
+.sound45 h26 {
+    opacity: 0;
+}
+
+.sound45 h27 {
+    opacity: 0;
+}
+
+.sound45 h28 {
+    opacity: 0;
+}
+
+.sound45 h29 {
+    opacity: 0;
+}
+
+.sound45 h30 {
+    opacity: 0;
+}
+
+.sound46 {
+    background-image: none;
+    animation-name: wegzappert;
+    animation-duration: 2s;
 }
