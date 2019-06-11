@@ -21,13 +21,62 @@ body {
     opacity: 0;
 }
 
+.sound1 h31, h32, h33, h34, h35, h36, h37, h38, h39, h40, h41, h42, h43, h44, h45, h46, h47, h48, h49, h50, h51, h52, h53, h54, h55, h56, h57, h58, h59, h60, h61, h62 {
+    opacity: 0;
+}
+
 
 @keyframes zoemrotate1 {
     0% {
         transform: translate(-50%, -50%) rotate(0deg);
     }
-    50% {
-        transform: translate(-50%, -50%) rotate(-2.5deg);
+    2.5% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    5% {
+        transform: translate(-50%, -50%) rotate(2deg);
+    }
+    7.5% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    10% {
+        transform: translate(-50%, -50%) rotate(2deg);
+    }
+    12.5% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    15% {
+        transform: translate(-50%, -50%) rotate(2deg);
+    }
+    17.5% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    20% {
+        transform: translate(-50%, -50%) rotate(2deg);
+    }
+    22.5% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    25% {
+        transform: translate(-50%, -50%) rotate(2deg);
+    }
+    27.5% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    30% {
+        transform: translate(-50%, -50%) rotate(2deg);
+    }
+    32.5% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    35% {
+        transform: translate(-50%, -50%) rotate(2deg);
+    }
+    37.5% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    40% {
+        transform: translate(-50%, -50%) rotate(2deg)
     }
     100% {
         transform: translate(-50%, -50%) rotate(0deg);
@@ -35,11 +84,56 @@ body {
 }
 
 @keyframes zoemrotate2 {
-    0% {
+   0% {
         transform: translate(-50%, -50%) rotate(0deg);
     }
-    50% {
-        transform: translate(-50%, -50%) rotate(-2.5deg);
+    2.5% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    5% {
+        transform: translate(-50%, -50%) rotate(2deg);
+    }
+    7.5% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    10% {
+        transform: translate(-50%, -50%) rotate(2deg);
+    }
+    12.5% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    15% {
+        transform: translate(-50%, -50%) rotate(2deg);
+    }
+    17.5% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    20% {
+        transform: translate(-50%, -50%) rotate(2deg);
+    }
+    22.5% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    25% {
+        transform: translate(-50%, -50%) rotate(2deg);
+    }
+    27.5% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    30% {
+        transform: translate(-50%, -50%) rotate(2deg);
+    }
+    32.5% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    35% {
+        transform: translate(-50%, -50%) rotate(2deg);
+    }
+    37.5% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    40% {
+        transform: translate(-50%, -50%) rotate(2deg)
     }
     100% {
         transform: translate(-50%, -50%) rotate(0deg);
@@ -50,8 +144,53 @@ body {
     0% {
         transform: translate(-50%, -50%) rotate(0deg);
     }
-    50% {
-        transform: translate(-50%, -50%) rotate(-2.5deg);
+    2.5% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    5% {
+        transform: translate(-50%, -50%) rotate(2deg);
+    }
+    7.5% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    10% {
+        transform: translate(-50%, -50%) rotate(2deg);
+    }
+    12.5% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    15% {
+        transform: translate(-50%, -50%) rotate(2deg);
+    }
+    17.5% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    20% {
+        transform: translate(-50%, -50%) rotate(2deg);
+    }
+    22.5% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    25% {
+        transform: translate(-50%, -50%) rotate(2deg);
+    }
+    27.5% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    30% {
+        transform: translate(-50%, -50%) rotate(2deg);
+    }
+    32.5% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    35% {
+        transform: translate(-50%, -50%) rotate(2deg);
+    }
+    37.5% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    40% {
+        transform: translate(-50%, -50%) rotate(2deg)
     }
     100% {
         transform: translate(-50%, -50%) rotate(0deg);
@@ -112,13 +251,13 @@ body {
 .sound3 #video-placeholder {
     transform-origin: center;
     animation: zoemrotate2;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
 }
 
 .sound6 #video-placeholder {
     transform-origin: center;
     animation: zoemrotate3;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
 }
 
 .sound8 #video-placeholder {
@@ -188,7 +327,7 @@ body {
 
 .voice3 {
     font-family: "brenner mono";
-    font-size: 2em;
+    font-size: 1em;
     background-color: red;
     color: white;
 }
@@ -309,8 +448,105 @@ body {
     opacity: 0;
 }
 
-.sound16 h3 {
-    color: yellow;
+.sound14 {
+    background-color: red;
+}
+
+.sound14 #video-placeholder {
+    transform-origin: center;
+    animation: zoemrotate3;
+    animation-duration: 1.5s;
+}
+
+.sound15 {
+    background-color: black;
+}
+
+@keyframes topkleur {
+    0% {
+        background-color: black;
+    }
+    1% {
+        background-color: red;
+    }
+    99% {
+        background-color: red;
+    }
+    100% {
+        background-color: black;
+    }
+}
+
+@keyframes toprotate {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    2.5% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    5% {
+        transform: translate(-50%, -50%) rotate(2deg);
+    }
+    7.5% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    10% {
+        transform: translate(-50%, -50%) rotate(2deg);
+    }
+    12.5% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    15% {
+        transform: translate(-50%, -50%) rotate(2deg);
+    }
+    17.5% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    20% {
+        transform: translate(-50%, -50%) rotate(2deg);
+    }
+    22.5% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    25% {
+        transform: translate(-50%, -50%) rotate(2deg);
+    }
+    27.5% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    30% {
+        transform: translate(-50%, -50%) rotate(2deg);
+    }
+    32.5% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    35% {
+        transform: translate(-50%, -50%) rotate(2deg);
+    }
+    37.5% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    40% {
+        transform: translate(-50%, -50%) rotate(2deg)
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+}
+
+.sound16 {
+    animation: topkleur;
+    animation-duration: 0.8s;
+}
+
+.sound16 #video-placeholder {
+    transform-origin: center;
+    animation: toprotate;
+    animation-duration: 1.5s;
+}
+
+.sound17 h3 {
+    color: white;
     font-family: "brenner display stencil black";
     position: absolute;
     text-align: center;
@@ -321,8 +557,8 @@ body {
     opacity: 1;
 }
 
-.sound17 h2 {
-    color: deeppink;
+.sound18 h2 {
+    color: green;
     font-family: "brenner slab bold italic";
     position: absolute;
     text-align: center;
@@ -333,8 +569,8 @@ body {
     opacity: 1;
 }
 
-.sound18 h4 {
-    color: blue;
+.sound19 h4 {
+    color: white;
     font-family: "brenner sans condensed";
     position: absolute;
     text-align: center;
@@ -345,8 +581,8 @@ body {
     opacity: 1;
 }
 
-.sound19 h5 {
-    color: red;
+.sound20 h5 {
+    color: greenyellow;
     font-family: "brenner script";
     position: absolute;
     text-align: center;
@@ -357,7 +593,7 @@ body {
     opacity: 1;
 }
 
-.sound20 h6 {
+.sound21 h6 {
     color: white;
     font-family: "brenner sans";
     position: absolute;
@@ -371,8 +607,8 @@ body {
     transform: rotate(-90deg);
 }
 
-.sound21 h7 {
-    color: palegreen;
+.sound22 h7 {
+    color: white;
     font-family: "brenner sans";
     font-style: italic;
     position: absolute;
@@ -386,8 +622,8 @@ body {
     transform: rotate(-90deg);
 }
 
-.sound22 h8 {
-    color: yellow;
+.sound23 h8 {
+    color: darkgreen;
     font-family: "brenner slab";
     position: absolute;
     text-align: center;
@@ -399,8 +635,8 @@ body {
     opacity: 1;
 }
 
-.sound23 h9 {
-    color: blueviolet;
+.sound24 h9 {
+    color: white;
     font-family: "brenner bold";
     font-size: 50em;
     position: absolute;
@@ -409,8 +645,8 @@ body {
     opacity: 1;
 }
 
-.sound24 h10 {
-    color: white;
+.sound25 h10 {
+    color: lawngreen;
     font-family: "brenner mono";
     font-size: 70em;
     font-weight: 1000;
@@ -420,13 +656,13 @@ body {
     opacity: 1;
 }
 
-.sound25 {
-    background-color: yellow;
+.sound26 {
+    background-color: black;
 }
 
-.sound25 h11 {
-    color: blue;
-    background-color: deeppink;
+.sound26 h11 {
+    color: white;
+    background-color: black;
     font-family: "brenner sans";
     font-style: italic;
     position: absolute;
@@ -439,12 +675,12 @@ body {
     transform: rotate(-90deg);
 }
 
-.sound26 {
-    background-color: hotpink;
+.sound27 {
+    background-color: black;
 }
-.sound26 h12 {
-    color: aqua;
-    background-color: purple;
+.sound27 h12 {
+    color: limegreen;
+    background-color: white;
     font-family: "brenner mono";
     position: absolute;
     text-align: center;
@@ -455,13 +691,13 @@ body {
     opacity: 1;
 }
 
-.sound27 {
-    background-color: mediumspringgreen;
+.sound28 {
+    background-color: black;
 }
 
-.sound27 h13 {
-    color: black;
-    background-color:white;
+.sound28 h13 {
+    color: white;
+    background-color: black;
     font-family: "brenner script";
     position: absolute;
     text-align: center;
@@ -472,13 +708,13 @@ body {
     opacity: 1;
 }
 
-.sound28 {
-    background-color: blue;
+.sound29 {
+    background-color: black;
 }
 
-.sound28 h14 {
-    color: white;
-    background-color: orange;
+.sound29 h14 {
+    color: limegreen;
+    background-color: white;
     font-family: "brenner slab";
     font-style: italic;
     position: absolute;
@@ -491,13 +727,13 @@ body {
     opacity: 1;
 }
 
-.sound29 {
-    background-color: lightgreen;
+.sound30 {
+    background-color: black;
 }
 
-.sound29 h15 {
-    color: deeppink;
-    background-color: yellow;
+.sound30 h15 {
+    color: white;
+    background-color: black;
     font-family: "brenner mono";
     font-style: italic;
     position: absolute;
@@ -507,13 +743,13 @@ body {
     opacity: 1;
 }
 
-.sound30 {
-    background-color: red;
+.sound31 {
+    background-color: black;
 }
 
-.sound30 h16 {
-    color: black;
-    background-color: lightgreen;
+.sound31 h16 {
+    color: palegreen;
+    background-color: white;
     font-family: "brenner sans condensed";
     position: absolute;
     text-align: center;
@@ -524,13 +760,13 @@ body {
     opacity: 1;
 }
 
-.sound31 {
-    background-color: blueviolet;
+.sound32 {
+    background-color: black;
 }
 
-.sound31 h17 {
+.sound32 h17 {
     color: white;
-    background-color: antiquewhite;
+    background-color: black;
     font-family: brenner mono;
     font-size: 25em;
     font-style: italic;
@@ -543,13 +779,13 @@ body {
     opacity: 1;
 }
 
-.sound32 {
-    background-color: aquamarine;
+.sound33 {
+    background-color: black;
 }
 
-.sound32 h18 {
-    color: deepskyblue;
-    background-color: hotpink;
+.sound33 h18 {
+    color: white;
+    background-color: black;
     font-family: brenner medium;
     font-size: 20em;
     font-style: italic;
@@ -561,13 +797,13 @@ body {
     opacity: 1;
 }
 
-.sound33 {
-    background-color: chocolate;
+.sound34 {
+    background-color: black;
 }
 
-.sound33 h19 {
+.sound34 h19 {
     color: darkgreen;
-    background-color: khaki;
+    background-color: white;
     font-family: brenner display black;
     font-size: 20em;
     position: absolute;
@@ -578,13 +814,13 @@ body {
     opacity: 1;
 }
 
-.sound34 {
-    background-color: ghostwhite;
+.sound35 {
+    background-color: black;
 }
 
-.sound34 h20 {
-    color:navy;
-    background-color: slateblue;
+.sound35 h20 {
+    color: white;
+    background-color: black;
     font-family: "brenner sans";
     font-size: 20em;
     font-style: italic;
@@ -597,13 +833,13 @@ body {
     opacity: 1;
 }
 
-.sound35 {
-    background-color: dimgrey;
+.sound36 {
+    background-color: black;
 }
 
-.sound35 h21 {
-    color: rosybrown;
-    background-color: navajowhite;
+.sound36 h21 {
+    color: lawngreen;
+    background-color: white;
     font-family: "brenner sans condensed";
     font-style: italic;
     font-size: 20em;
@@ -615,13 +851,13 @@ body {
     opacity: 1;
 }
 
-.sound36 {
-    background-color: darkseagreen;
+.sound37 {
+    background-color: black;
 }
 
-.sound36 h22 {
-    color: darkolivegreen;
-    background-color: crimson;
+.sound37 h22 {
+    color: white;
+    background-color: black;
     font-family: "brenner slab";
     font-style: italic;
     font-stretch: extra-expanded;
@@ -634,13 +870,13 @@ body {
     opacity: 1;
 }
 
-.sound37 {
-    background-color: gold;
+.sound38 {
+    background-color: black;
 }
 
-.sound37 h23 {
-    color: greenyellow;
-    background-color: salmon;
+.sound38 h23 {
+    color: forestgreen;
+    background-color: white;
     font-family: "brenner sans";
     font-size: 15em;
     position: absolute;
@@ -651,13 +887,13 @@ body {
     opacity: 1;
 }
 
-.sound38 {
-    background-color: peachpuff;
+.sound39    {
+    background-color: black;
 }
 
-.sound38 h24 {
-    color: lavender;
-    background-color: rebeccapurple;
+.sound39 h24 {
+    color: white;
+    background-color: black;
     font-family: "brenner script";
     font-size: 15em;
     font-style: italic;
@@ -669,13 +905,13 @@ body {
     opacity: 1;
 }
 
-.sound39 {
-    background-color: mediumblue;
+.sound40 {
+    background-color: black;
 }
 
-.sound39 h25 {
-    color: firebrick;
-    background-color: teal;
+.sound40 h25 {
+    color: limegreen;
+    background-color: white;
     font-family: "brenner sans condensed";
     font-size: 15em;
     position: absolute;
@@ -686,11 +922,11 @@ body {
     opacity: 1;
 }
 
-.sound40 {
+.sound41 {
     background-color: black;
 }
 
-.sound40 h26 {
+.sound41 h26 {
     color: black;
     background-color: white;
     font-family: "brenner sans";
@@ -703,12 +939,12 @@ body {
     opacity: 1;
 }
 
-.sound41 {
+.sound42 {
     background-color: black;
 }
 
-.sound41 h27 {
-    color: black;
+.sound42 h27 {
+    color: forestgreen;
     background-color: white;
     font-family: "brenner sans";
     font-size: 12.3em;
@@ -720,12 +956,12 @@ body {
     opacity: 1;
 }
 
-.sound42 {
+.sound43 {
     background-color: black;
 }
 
-.sound42 h28 {
-    color: black;
+.sound43 h28 {
+    color: greenyellow;
     background-color: white;
     font-family: "brenner sans";
     font-size: 12.3em;
@@ -737,12 +973,12 @@ body {
     opacity: 1;
 }
 
-.sound43 {
+.sound44 {
     background-color: black;
 }
 
-.sound43 h29 {
-    color: black;
+.sound44 h29 {
+    color: seagreen;
     background-color: white;
     font-family: "brenner sans";
     font-size: 12.3em;
@@ -754,12 +990,12 @@ body {
     opacity: 1;
 }
 
-.sound44 {
+.sound45 {
     background-color: black;
 }
 
-.sound44 h30 {
-    color: black;
+.sound45 h30 {
+    color: mediumseagreen;
     background-color: white;
     font-family: "brenner sans";
     font-size: 12.3em;
@@ -771,132 +1007,757 @@ body {
     opacity: 1;
 }
 
-.sound45 {
-    background-image: url(images/tripje2.gif);
-}
-
-.sound45 h1 {
-    opacity: 0;
-}
-
-.sound45 h2 {
-    opacity: 0;
-}
-
-.sound45 h3 {
-    opacity: 0;
-}
-
-.sound45 h4 {
-    opacity: 0;
-}
-
-.sound45 h5 {
-    opacity: 0;
-}
-
-.sound45 h6 {
-    opacity: 0;
-}
-
-.sound45 h7 {
-    opacity: 0;
-}
-
-.sound45 h8 {
-    opacity: 0;
-}
-
-.sound45 h9 {
-    opacity: 0;
-}
-
-.sound45 h10 {
-    opacity: 0;
-}
-
-.sound45 h11 {
-    opacity: 0;
-}
-
-.sound45 h12 {
-    opacity: 0;
-}
-
-.sound45 h13 {
-    opacity: 0;
-}
-
-.sound45 h14 {
-    opacity: 0;
-}
-
-.sound45 h15 {
-    opacity: 0;
-}
-
-.sound45 h16 {
-    opacity: 0;
-}
-
-.sound45 h17 {
-    opacity: 0;
-}
-
-.sound45 h18 {
-    opacity: 0;
-}
-
-.sound45 h19 {
-    opacity: 0;
-}
-
-.sound45 h20 {
-    opacity: 0;
-}
-
-.sound45 h21 {
-    opacity: 0;
-}
-
-.sound45 h22 {
-    opacity: 0;
-}
-
-.sound45 h23 {
-    opacity: 0;
-}
-
-.sound45 h24 {
-    opacity: 0;
-}
-
-.sound45 h25 {
-    opacity: 0;
-}
-
-.sound45 h26 {
-    opacity: 0;
-}
-
-.sound45 h27 {
-    opacity: 0;
-}
-
-.sound45 h28 {
-    opacity: 0;
-}
-
-.sound45 h29 {
-    opacity: 0;
-}
-
-.sound45 h30 {
-    opacity: 0;
-}
-
 .sound46 {
+    background-image: url(images/laden.gif);
+}
+
+.sound46 h1 {
+    opacity: 0;
+}
+
+.sound46 h2 {
+    opacity: 0;
+}
+
+.sound46 h3 {
+    opacity: 0;
+}
+
+.sound46 h4 {
+    opacity: 0;
+}
+
+.sound46 h5 {
+    opacity: 0;
+}
+
+.sound46 h6 {
+    opacity: 0;
+}
+
+.sound46 h7 {
+    opacity: 0;
+}
+
+.sound46 h8 {
+    opacity: 0;
+}
+
+.sound46 h9 {
+    opacity: 0;
+}
+
+.sound46 h10 {
+    opacity: 0;
+}
+
+.sound46 h11 {
+    opacity: 0;
+}
+
+.sound46 h12 {
+    opacity: 0;
+}
+
+.sound46 h13 {
+    opacity: 0;
+}
+
+.sound46 h14 {
+    opacity: 0;
+}
+
+.sound46 h15 {
+    opacity: 0;
+}
+
+.sound46 h16 {
+    opacity: 0;
+}
+
+.sound46 h17 {
+    opacity: 0;
+}
+
+.sound46 h18 {
+    opacity: 0;
+}
+
+.sound46 h19 {
+    opacity: 0;
+}
+
+.sound46 h20 {
+    opacity: 0;
+}
+
+.sound46 h21 {
+    opacity: 0;
+}
+
+.sound46 h22 {
+    opacity: 0;
+}
+
+.sound46 h23 {
+    opacity: 0;
+}
+
+.sound46 h24 {
+    opacity: 0;
+}
+
+.sound46 h25 {
+    opacity: 0;
+}
+
+.sound46 h26 {
+    opacity: 0;
+}
+
+.sound46 h27 {
+    opacity: 0;
+}
+
+.sound46 h28 {
+    opacity: 0;
+}
+
+.sound46 h29 {
+    opacity: 0;
+}
+
+.sound46 h30 {
+    opacity: 0;
+}
+
+.sound46 h31 {
+    opacity: 0;
+}
+
+.sound46 h32 {
+    opacity: 0;
+}
+
+.sound46 h33 {
+    opacity: 0;
+}
+
+.sound46 h34 {
+    opacity: 0;
+}
+
+.sound46 h35 {
+    opacity: 0;
+}
+
+.sound46 h36 {
+    opacity: 0;
+}
+
+.sound46 h37 {
+    opacity: 0;
+}
+
+.sound46 h38 {
+    opacity: 0;
+}
+
+.sound46 h39 {
+    opacity: 0;
+}
+
+.sound46 h40 {
+    opacity: 0;
+}
+
+.sound46 h41 {
+    opacity: 0;
+}
+
+.sound46 h42 {
+    opacity: 0;
+}
+
+.sound46 h43 {
+    opacity: 0;
+}
+
+.sound46 h44 {
+    opacity: 0;
+}
+
+.sound46 h45 {
+    opacity: 0;
+}
+
+.sound46 h46 {
+    opacity: 0;
+}
+
+.sound47 h47 {
+    opacity: 0;
+}
+
+.sound47 h48 {
+    opacity: 0;
+}
+
+.sound47 h49 {
+    opacity: 0;
+}
+
+.sound47 h50 {
+    opacity: 0;
+}
+
+.sound47 h51 {
+    opacity: 0;
+}
+
+.sound47 h52 {
+    opacity: 0;
+}
+
+.sound47 h53 {
+    opacity: 0;
+}
+
+.sound47 h54 {
+    opacity: 0;
+}
+
+.sound47 h55 {
+    opacity: 0;
+}
+
+.sound47 h56 {
+    opacity: 0;
+}
+
+.sound47 h57 {
+    opacity: 0;
+}
+
+.sound47 h58 {
+    opacity: 0;
+}
+
+.sound47 h59 {
+    opacity: 0;
+}
+
+.sound47 h60 {
+    opacity: 0;
+}
+
+.sound47 h61 {
+    opacity: 0;
+}
+
+.sound47 h62 {
+    opacity: 0;
+}
+
+.sound47 {
     background-image: none;
     animation-name: wegzappert;
     animation-duration: 2s;
+}
+
+.sound48 {
+    background-color: limegreen;
+}
+
+.sound49 {
+    animation: bgfade;
+    animation-duration: 2s;
+}
+
+@keyframes bgfade {
+    from {
+        background-color: limegreen;
+    }
+    to {
+        background-color: black;
+    }
+}
+
+.sound50 {
+    background-color: black;
+    animation: bgkleurtje;
+    animation-duration: 40s;
+}
+
+@keyframes bgkleurtje {
+    0% {
+        background-color: black;
+    }
+    10% {
+        background-color: red;
+    }
+    20% {
+        background-color: black;
+    }
+    30% {
+        background-color: red;
+    }
+    40% {
+        background-color: black;
+    }
+    50% {
+        background-color: red;
+    }
+    60% {
+        background-color: black;
+    }
+    70% {
+        background-color: red;
+    }
+    80% {
+        background-color: black;
+    }
+    90% {
+        background-color: red;
+    }
+    100% {
+        background-color: black;
+    }
+}
+
+.sound50 h31 {
+    opacity: 1;
+    color: white;
+    background-color: black;
+    font-size: 4em;
+    font-family: "brenner mono";
+    font-weight: 800;
+    position: absolute;
+    left: 2em;
+    top: 2em;
+}
+
+.sound51 h32 {
+    opacity: 1;
+    color: white;
+    background-color: red;
+    font-size: 7em;
+    font-family: "brenner slab";
+    font-weight: 600;
+    position: absolute;
+    top: 2.5em;
+    left: 2em;
+}
+
+.sound52 h33 {
+    opacity: 1;
+    color: white;
+    background-color: black;
+    font-size: 10em;
+    font-weight: 800;
+    position: absolute;
+    bottom: 2em;
+    right: 1em;
+}
+
+.sound53 h34 {
+    opacity: 1;
+    color: white;
+    background-color: red;
+    font-size: 12em;
+    font-weight: 800;
+    position: absolute;
+    font-family: "brenner sans condensed";
+    top: 3.5em;
+    left: 10.5em;
+}
+
+.sound54 h35 {
+    opacity: 1;
+    color: white;
+    font-size: 12em;
+    font-weight: 800;
+    position: absolute;
+    font-family: "brenner bold";
+    font-style: italic;
+    top: 6em;
+    left: 2em;
+}
+
+.sound55 h36 {
+    opacity: 1;
+    color: white;
+    background-color: red;
+    font-size: 13em;
+    font-weight: 600;
+    font-family: "brenner script";
+    position: absolute;
+    top: 4.5em;
+    left: 0.3em;
+}
+
+.sound56 h37 {
+    opacity: 1;
+    color: white;
+    background-color: black;
+    font-size: 12em;
+    transform: rotate(-90deg);
+    font-weight: 800;
+    position: absolute;
+    font-family: "brenner mono";
+    top: 3.2em;
+    left: -2em;
+}
+
+.sound57 h38 {
+    opacity: 1;
+    color: white;
+    background-color: red;
+    font-size: 12em;
+    font-weight: 600;
+    position: absolute;
+    font-family: "brenner bold";
+    top: 0.3em;
+    left: 4em;
+}
+
+.sound58 h39 {
+    opacity: 1;
+    color: white;
+    background-color: black;
+    font-size: 15em;
+    font-weight: 800;
+    font-family: "brenner mono";
+    position: absolute;
+    bottom: -0.1em;
+    right: 0.2em;
+}
+
+.sound59 h40 {
+    opacity: 1;
+    color: white;
+    background-color: red;
+    font-size: 15em;
+    font-weight: 800;
+    font-family: "brenner slab";
+    position: absolute;
+    transform: rotate(90deg);
+    top: 2.3em;
+    right: -2.5em;
+}
+
+.sound60 h41 {
+    opacity: 1;
+    color: white;
+    background-color: black;
+    font-size: 12.2em;
+    font-style: italic;
+    font-family: "brenner sans";
+    font-weight: 800;
+    position: absolute;
+    top: 3em;
+}
+
+@keyframes trillen {
+    0% {
+        transform: rotate(2deg);
+    }
+    10% {
+        transform: rotate(-2deg);
+    }
+    20% {
+        transform: rotate(-2deg);
+    }
+    30% {
+        transform: rotate(2deg);
+    }
+    40% {
+        transform: rotate(-2deg);
+    }
+    50% {
+        transform: rotate(2deg);
+    }
+    60% {
+        transform: rotate(-2deg);
+    }
+    70% {
+        transform: rotate(2deg);
+    }
+    80% {
+        transform: rotate(-2deg);
+    }
+    90% {
+        transform: rotate(2deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.sound61 h42 {
+    animation: trillen;
+    animation-duration: 1s;
+    opacity: 1;
+    color: white;
+    background-color: red;
+    font-size: 10em;
+    font-weight: 800;
+    font-family: "brenner sans";
+    font-style: italic;
+    position: absolute;
+    top: 1em;
+    right: 2em;
+}
+
+.sound62 h43 {
+    opacity: 1;
+    color: white;
+    background-color: black;
+    font-size: 25em;
+    font-family: "brenner sans condensed";
+    font-weight: 600;
+    position: absolute;
+    left: 1em;
+    top: 1em;
+}
+
+.sound63 h44 {
+    animation: trillen;
+    animation-duration: 0.7s;
+    opacity: 1;
+    color: white;
+    background-color: red;
+    font-family: "brenner sans condensed";
+    font-size: 25em;
+    font-weight: 800;
+    position: absolute;
+    bottom: 0.2em;
+    left: -0.5em;
+}
+
+.sound64 h45 {
+    opacity: 1;
+    color: white;
+    background-color: black;
+    font-size: 18em;
+    font-family: "brenner slab";
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 5em;
+    bottom: 1em;
+}
+
+.sound65 h62 {
+    animation: trillen;
+    animation-duration: 0.4s;
+    opacity: 1;
+    font-size: 18em;
+    color: white;
+    background-color: red;
+    font-family: "brenner slab";
+    right: 4.5em;
+    bottom: 2.3em;
+    position: absolute;
+}
+
+.sound66 h46 {
+    opacity: 1;
+    color: white;
+    background-color: black;
+    font-size: 13em;
+    font-family: "brenner script";
+    font-weight: 800;
+    position: absolute;
+}
+
+.sound67 h47 {
+    opacity: 1;
+    animation: trillen;
+    animation-duration: 0.3s;
+    font-size: 13em;
+    font-family: "brenner script";
+    font-weight: 800;
+    color: white;
+    background-color: red;
+    position: absolute;
+    top: 1em;
+    right: 4em;
+}
+
+.sound68 h48 {
+    opacity: 1;
+    color: white;
+    background-color: black;
+    font-size: 10em;
+    position: absolute;
+    font-weight: 800;
+    font-family: "brenner bold";
+    bottom: 0.2em;
+    right: 0.2em;
+}
+
+.sound69 h49 {
+    animation: trillen;
+    animation-duration: 0.3s;
+    opacity: 1;
+    color: white;
+    background-color: red;
+    font-size: 10em;
+    position: absolute;
+    font-weight: 800;
+    font-family: "brenner bold";
+    bottom: 0.4em;
+    right: 0.4em;
+}
+
+.sound70 h50 {
+    opacity: 1;
+    color: white;
+    background-color: black;
+    font-size: 20em;
+    position: absolute;
+    font-weight: 800;
+    right: 3.7em;
+    bottom: -0.15em;
+}
+
+.sound71 h51 {
+    opacity: 1;
+    color: white;
+    background-color: red;
+    animation: trillen;
+    animation-duration: 0.3s;
+    position: absolute;
+    font-size: 20em;
+    bottom: 0.05em;
+    right: 0.05em;
+}
+
+.sound72 h52 {
+    opacity: 1;
+    color: white;
+    background-color: black;
+    font-size: 10em;
+    position: absolute;
+    font-family: "brenner mono";
+    font-weight: 600;
+    top: 0.8em;
+}
+
+.sound73 h53 {
+    opacity: 1;
+    animation: trillen;
+    animation-duration: 0.3s;
+    position: absolute;
+    color: white;
+    background-color: red;
+    font-family: "brenner mono";
+    font-weight: 600;
+    top: 1.6em;
+    left: 0.2em;
+    font-size: 10em;
+}
+
+.sound74 h54 {
+    opacity: 1;
+    color: white;
+    background-color: black;
+    font-size: 17em;
+    font-weight: 600;
+    font-family: "brenner slab";
+    top: 3.5em;
+    position: absolute;
+    right: -0.6em;
+}
+
+.sound75 h55 {
+    opacity: 1;
+    animation: trillen;
+    animation-duration: 0.2s;
+    color: white;
+    background-color: red;
+    font-weight: 600;
+    font-size: 17em;
+    font-family: "brenner slab";
+    position: absolute;
+    top: 3.1em;
+    right: -1em;
+}
+
+.sound76 h56 {
+    opacity: 1;
+    color: white;
+    background-color: black;
+    font-size: 15em;
+    font-weight: 800;
+    font-family: brenner sans condensed;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -2.5em;
+    top: 2em;
+}
+
+.sound77 h57 {
+    opacity: 1;
+    animation: trillen;
+    animation-duration: 0.15s;
+    color: white;
+    background-color: red;
+    font-size: 15em;
+    font-weight: 800;
+    position: absolute;
+    font-family: "brenner sans condensed";
+    top: 0.2em;
+    right: -0.8em;
+}
+
+.sound78 h58 {
+    opacity: 1;
+    color: white;
+    background-color: black;
+    font-size: 10em;
+    font-weight: 600;
+    font-family: "brenner script";
+    font-style: italic;
+    position: absolute;
+    right: 0em;
+}
+
+.sound79 h59 {
+    opacity: 1;
+    animation: trillen;
+    animation-duration: 0.15s;
+    color: white;
+    background-color: red;
+    font-size: 10em;
+    font-weight: 600;
+    font-family: "brenner script";
+    font-style: italic;
+    right: 3em;
+    top: 0.15em;
+    position: absolute;
+}
+
+.sound80 h60 {
+    opacity: 1;
+    color: white;
+    background-color: black;
+    font-size: 10em;
+    position: absolute;
+    font-family: "brenner bold";
+    font-style: italic;
+    top: 0.7em;
+}
+
+.sound81 h61 {
+    opacity: 1;
+    animation: trillen;
+    animation-duration: 0.25s;
+    color: white;
+    background-color: red;
+    font-size: 10em;
+    position: absolute;
+    font-family: "brenner bold";
+    font-style: italic;
+    bottom: 0.2em;
 }
